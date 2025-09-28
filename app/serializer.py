@@ -1,5 +1,5 @@
 from abc import ABC, abstractmethod
-from app.book import Book
+from .book import Book
 import json
 import xml.etree.ElementTree as ElementTree
 

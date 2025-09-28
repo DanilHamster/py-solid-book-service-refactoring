@@ -1,5 +1,5 @@
 from abc import ABC, abstractmethod
-from app.book import Book
+from .book import Book
 
 
 class DisplayStrategy(ABC):
