@@ -7,10 +7,12 @@ class PrintStrategy(ABC):
     def print(self, book: Book) -> None:
         pass
 
+
 class ConsolePrinter(PrintStrategy):
     def print(self, book: Book) -> None:
         print(f"Printing the book: {book.title}...")
         print(book.content)
+
 
 class ReversePrinter(PrintStrategy):
     def print(self, book: Book) -> None:
